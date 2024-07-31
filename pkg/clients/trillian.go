@@ -1,11 +1,11 @@
 package clients
 
-type TrillianCli struct {
+type Trillian struct {
 	*cli
 }
 
-func NewTrillianCli() *TrillianCli {
-	return &TrillianCli{
+func NewTrillianCli() *Trillian {
+	return &Trillian{
 		&cli{
 			Name:           "trillian",
 			setupStrategy:  PreferredSetupStrategy(),
