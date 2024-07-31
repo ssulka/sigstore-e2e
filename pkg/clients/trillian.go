@@ -7,7 +7,7 @@ type TrillianCli struct {
 func NewTrillianCli() *TrillianCli {
 	return &TrillianCli{
 		&cli{
-			Name:           "trillian-cli",
+			Name:           "trillian",
 			setupStrategy:  PreferredSetupStrategy(),
 			versionCommand: "version",
 		}}
