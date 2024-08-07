@@ -4,7 +4,7 @@ type Trillian struct {
 	*cli
 }
 
-func NewTrillianCli() *Trillian {
+func NewTrillian() *Trillian {
 	return &Trillian{
 		&cli{
 			Name:           "trillian",
